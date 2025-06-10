@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rapidapi-tester"
+version = "0.1.0"
+description = "A web interface for testing RapidAPI endpoints"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+flask = "^2.3.3"
+flask-wtf = "^1.1.1"
+wtforms = "^3.0.1"
+gunicorn = "^20.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
